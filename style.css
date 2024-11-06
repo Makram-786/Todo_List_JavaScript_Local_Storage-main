@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+.d-flex{
+    display: flex;
+}
+.p-20{
+    padding: 20px;
+}
+.container{
+    max-width: 80%;
+    margin: 20px auto;
+}
+.todo_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    flex: 0 0 calc(25% - 10px);
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+    padding: 10px 15px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #202020;
+}
+.mini-heading{
+    color: #243642;
+}
+.card li{
+    list-style: none;
+}
+.title{
+    text-transform: capitalize;
+    word-break: break-word;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn{
+    padding: 8px 12px;
+    border-radius: 2px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btn-danger{
+    background-color:#FA4032;
+}
+.btn-secondary{
+    background-color: #A79277;
+}
+#todo_form{
+    border: 1px solid #e2e2e2;
+    padding: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+#submit{
+    background-color: #1170ff;
+    flex-shrink: 0;
+    height: 46px;
+    font-weight: 600;
+    font-size: 14px;
+}
+input{
+display: block;
+height: 46px;
+border: 1px solid #e2e2e2;
+outline: none;
+padding: 0 10px;
+flex: 1;
+}
